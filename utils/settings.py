@@ -13,6 +13,7 @@ FPS = 300
 
 WIDTH, HEIGHT = 500, 600
 
+# make sure that value of rows/cols is less than width or height otherwise the pixel_size will be reduced to 0 and it will crash the program
 ROWS = COLS = 100
 
 TOOLBAR_HEIGHT = abs(HEIGHT - WIDTH)
