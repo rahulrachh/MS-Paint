@@ -2,7 +2,7 @@ from utils import *
 from utils.button import Button
 
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Drawing Program (MS Paint)")
+pygame.display.set_caption("MS Paint")
 
 
 def init_grid(rows, cols, color):
